@@ -1,5 +1,8 @@
 h1{
 	text-align: center;
+	font-size: 250%;
+	font-family: initial;
+	font-style: italic;
 	
 }
 *{
@@ -11,9 +14,12 @@ body{
 	margin-left: 25px;
 	
 }
+.container{
+	margin-top: 10%;
+}
 .chicken{
 	width: 500px;
-	background-color: grey;
+	background-color:lightgrey;
 	float: right;
 	width: 30%;
 	padding: 10px;
@@ -23,7 +29,7 @@ body{
 }
 .beaf{
 	width: 500px;
-	background-color: grey;
+	background-color: lightgrey;
 	float: right;
 	width: 30%;
 	border: 3px solid black;
@@ -34,7 +40,7 @@ body{
 }
 .sushi{
 	
-	background-color: grey;
+	background-color: lightgrey;
 	width: 30%;
 	padding: 0px;
 	border: 3px solid black;
@@ -46,11 +52,15 @@ body{
 	font-size: 25px;
 	border:2px solid black;
 	text-align: center;
-	width: 27%;
+	width: 31%;
+	border-right: none;
 	position: relative;
-	left: 76%;
+	left: 72%;
 	bottom: 38px;
 	background-color: lightcoral;
+	overflow: hidden;
+	display:flex;
+	padding: 5px;
 
 }
 
@@ -61,12 +71,16 @@ body{
 	border:2px solid black;
 	text-align: center;
 	width: 27%;
+	border-right: none;
 	position: relative;
 	left: 76%;
 	bottom: 38px;
 	background-color: lightyellow;
-	border-bottom: 25px;
+	
 	padding: 5px;
+	display:flex;
+	padding: 5px;
+
 
 
 }
@@ -80,9 +94,12 @@ body{
 	border:2px solid black;
 	text-align: center;
 	width: 27%;
+	border-right: none;
 	position: relative;
 	left: 76%;
 	bottom: 38px;
+	display:flex;
+	padding: 5px;
 }
 
 .bbb{
@@ -103,12 +120,12 @@ position: relative;
 
 
 }*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
 
 	.chicken{
 		width: 45%;
 		margin-right: 5px;
-		margin-top: 5%;
+		
 		
 }
 .beaf{
@@ -130,7 +147,7 @@ position: relative;
 }
 
 .nameb{
-	width: 15%;
+	width: 14.5%;
 	left: 87%;
 }
 	.namec{
@@ -153,58 +170,45 @@ position: relative;
          	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
 				float:left;
 				
-				margin-left: 25%;
-				margin-top: 10%;
+				margin-left: 20%;
+				margin-top: 5%;
+				margin-right: 10%;
 			
 			}
 			.namec{
-				width: 28%;
+				box-sizing: border-box;
+				
+				width: 30%;
+				text-align: center;
+				height: auto;
+
 			}
 			.nameb{
-				width: 28%;
+				width: 15%;
+				
+				
 			}
 			.names{
-				width: 28%;
+				width: 30%;
+				text-align: center;
 			}
-			.col-md-1{
-				width:8.33%;
+			.chicken{
+				width: 80%
 			}
-			.col-md-2{
-				width:16.66%;
+			.sushi{
+				width: 80%;
 			}
-			.col-md-3{
-				width:25%;
+			.beaf{
+				width: 83%;
 			}
-			.col-md-4{
-				width:33%;
-			}
-			.col-md-5{
-				width:41.66%;
-			}
-			.col-md-6{
-				width:50%;
-			}
-			.col-md-7{
-				width:58.33%;
-			}
-			.col-md-8{
-				width:66.66%;
-			}
-			.col-md-9{
-				width:74.99%;
-			}
-			.col-md-10{
-				width:83.33%;
-			}
-			.col-md-11{
-				width:*91.66%;
-			}
-			.col-md-12{
-				width:100%;
-			}	
+			.bbb{
 
-			.namec{
-				position: relative;
-				right: 100px;
 			}
-         }
+			@media ( max-width: 500PX){
+				.namec{
+					width: 32%;
+				}
+				.nameb{
+					width: 15.9%;
+				}
+			}
